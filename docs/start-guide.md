@@ -269,6 +269,4 @@ APIはApplication Programming Interfaceの略で、プログラムからAIサー
 
 ---
 
-*本ガイドの内容は2026年6月時点の情報に基づいています。*
-
-*株式会社アンテカニス / AI戦略実践プロジェクト　お問い合わせ: support@antecanis.com*
+*本ガイドの内容は2026年6月時点の情報に基づいています。お問い合わせ: support@antecanis.com*
