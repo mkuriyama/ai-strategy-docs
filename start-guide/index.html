@@ -1,0 +1,1274 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI戦略実践プロジェクトのボキャブラリーリストとスタートガイド">
+      
+      
+        <meta name="author" content="AI戦略実践プロジェクト">
+      
+      
+        <link rel="canonical" href="https://mkuriyama.github.io/ai-strategy-docs/start-guide/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../glossary/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>スタートガイド - AI戦略実践プロジェクト ドキュメント</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href=".." title="AI戦略実践プロジェクト ドキュメント" class="md-header__button md-logo" aria-label="AI戦略実践プロジェクト ドキュメント" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI戦略実践プロジェクト ドキュメント
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              スタートガイド
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="ダークモードに切り替え"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="ダークモードに切り替え" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="ライトモードに切り替え"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="ライトモードに切り替え" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="共有" aria-label="共有" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mkuriyama/ai-strategy-docs" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mkuriyama/ai-strategy-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AI戦略実践プロジェクト ドキュメント" class="md-nav__button md-logo" aria-label="AI戦略実践プロジェクト ドキュメント" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AI戦略実践プロジェクト ドキュメント
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mkuriyama/ai-strategy-docs" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mkuriyama/ai-strategy-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ホーム
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    スタートガイド
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    スタートガイド
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. なぜ「AI戦略」なのか
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. なぜ「AI戦略」なのか">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1990ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1990年代と同じ構図が、今AIで起きている
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. AI時代に戦略の何が変わるか
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. AI時代に戦略の何が変わるか">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「堀」の中身が変わる
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-5-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 × 5 × 5の枠組み
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. セッションで体験すること
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. セッションで体験すること">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIの「3つの使い方」を一気に駆け上がる
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        セッション当日の進み方
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 当日スムーズに始めるための準備
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 当日スムーズに始めるための準備">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        対話型AIサービス
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「指示文」の使い方
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-colaboratorycolab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Colaboratory（Colab）でのコード実行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIキーについて
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#googlepc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Googleアカウント・PC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 付録：もう少し詳しく知りたい方へ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 付録：もう少し詳しく知りたい方へ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gemini-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gemini APIキーの取得手順（任意）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIの仕組み
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主要AIサービス一覧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ボキャブラリーリスト（用語集）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. なぜ「AI戦略」なのか
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. なぜ「AI戦略」なのか">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1990ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1990年代と同じ構図が、今AIで起きている
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. AI時代に戦略の何が変わるか
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. AI時代に戦略の何が変わるか">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「堀」の中身が変わる
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-5-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 × 5 × 5の枠組み
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. セッションで体験すること
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. セッションで体験すること">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIの「3つの使い方」を一気に駆け上がる
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        セッション当日の進み方
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 当日スムーズに始めるための準備
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 当日スムーズに始めるための準備">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        対話型AIサービス
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「指示文」の使い方
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-colaboratorycolab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Colaboratory（Colab）でのコード実行
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIキーについて
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#googlepc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Googleアカウント・PC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 付録：もう少し詳しく知りたい方へ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 付録：もう少し詳しく知りたい方へ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gemini-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gemini APIキーの取得手順（任意）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIの仕組み
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主要AIサービス一覧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">スタートガイド<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>各回のセッションは独立したテーマで進むため、どの回からでも参加できます。
+このガイドは、初めて参加される方がプロジェクトの背景にある考え方を掴み、
+当日のセッションにスムーズに臨めるようにまとめたものです。</p>
+<div class="admonition abstract">
+<p class="admonition-title">構成</p>
+<ol>
+<li>なぜ「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>戦略」なのか ── プロジェクトの背景にある課題認識</li>
+<li><abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>時代に戦略の何が変わるか ── セッションで繰り返し使う考え方の枠組み</li>
+<li>セッションで体験すること ── <abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の「3つの使い方」と当日の進み方</li>
+<li>当日スムーズに始めるための準備 ── 環境・ツール・操作の確認</li>
+<li>付録：もう少し詳しく知りたい方へ</li>
+</ol>
+<p>本文中の専門用語にはマウスを重ねると説明が表示されます。詳しい定義は
+<a href="../glossary/">ボキャブラリーリスト</a>を参照してください。</p>
+</div>
+<hr />
+<h2 id="1-ai">1. なぜ「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>戦略」なのか<a class="headerlink" href="#1-ai" title="Permanent link">&para;</a></h2>
+<h3 id="1990ai">1990年代と同じ構図が、今<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>で起きている<a class="headerlink" href="#1990ai" title="Permanent link">&para;</a></h3>
+<p>1990年代にPCとインターネットが普及したとき、多くの企業が「ExcelとWordの活用講座」
+「ブラウザとウェブサーフィンの活用講座」を導入しました。それ自体は有益でしたが、
+振り返ると、世界を変えたのは使い方講座ではなく、インターネットを前提にゼロから
+設計されたAmazon、Netflix、Uberのようなサービスでした。</p>
+<p>この30年間で何が起きたかは、時価総額の世界ランキングが端的に示しています。
+1995年、上位にはNTT、GE、Shell、AT&amp;T、Exxonなど通信・石油・金融が並んでいました。
+2025年、上位はNVIDIA、Microsoft、Apple、Alphabet（Google）、Amazon、Meta。
+ソフトウェアとプラットフォームと半導体が世界の時価総額上位を占め、日本企業最上位の
+トヨタ自動車は51位です。デジタル技術を前提とした事業構造への転換に乗れたかどうかが、
+30年後の企業の姿を決めました。</p>
+<p>今、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>で同じ構図が進行しています。ChatGPTやGeminiを「便利ツール」として使うことは
+すでに多くの人が始めていますし、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>ツール活用の勉強会やカンファレンスもそこかしこで
+開かれています。しかし、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>を前提にして事業の仕組みそのものを組み替える段階に
+踏み込んでいる企業は、まだ限られています。</p>
+<div class="admonition note">
+<p class="admonition-title">本プロジェクトの焦点</p>
+<p>「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>をツールとして便利に使う（<abbr title="AIを「便利な道具」として使う段階。">AI as a Tool</abbr>）」から「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>前提で事業戦略を構想し
+実装する（<abbr title="AIを「事業戦略の前提」として組み込む段階。">AI as a Strategy</abbr>）」への転換。そこに焦点を当てて、抽象的な議論ではなく
+<strong>自分の手で動くものを作りながら</strong>、戦略インパクトを体感する場です。</p>
+<p>「どの<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>ツールを使うか」ではなく「事業として何を実現したいか」が先。手を動かして
+毎回動く仕組みを作る。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の進化に合わせてテーマを毎回更新し続ける。この3つを
+大事にしています。</p>
+</div>
+<p>プログラミング経験は前提としていません。ただし、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に相談して便利に使うだけに留まらず、
+<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>をシステムとして組み込み事業の仕組みに変える段階まで、各セッションの中で一気に
+体験します。その具体的な進み方はセクション3と4で説明します。</p>
+<hr />
+<h2 id="2-ai">2. <abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>時代に戦略の何が変わるか<a class="headerlink" href="#2-ai" title="Permanent link">&para;</a></h2>
+<p>セッションでは、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の使い方を体験するだけでなく、「それが自社の事業戦略にどういう
+インパクトを持つか」を毎回考えます。そのために繰り返し参照する考え方の枠組みを、
+ここで紹介しておきます。</p>
+<h3 id="_2">「堀」の中身が変わる<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>企業が競争で勝つためには、他社にない<strong>独自の価値</strong>を顧客に提供し、それが
+<strong>簡単に真似されない</strong>状態を作ることが基本です。戦略論ではこれを「堀（<abbr title="競合が容易に追随できない防御壁となる競争優位の源泉（Moat／堀）。">モート</abbr>）」
+——城の防御壁になぞらえます。</p>
+<p><abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>時代には、この「堀」の中身が構造的に変わります。</p>
+<p>かつては「優れたアルゴリズムを持っていること」自体が大きな武器でした。しかし<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の
+民主化が進み、誰でも高度なモデルを<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>一本で呼び出せるようになった今、アルゴリズム
+そのものの競争優位は急速に薄れています。代わりに価値が高まるのは、<strong>独自のデータ</strong>
+（自社にしかない情報資産）、<strong>顧客との関係</strong>（信頼と接点の蓄積）、<strong>運用経験</strong>
+（仕組みを回して初めて得られる知見）といった、簡単にはコピーできない資産です。</p>
+<p>「自社は何を武器に戦うのか」「その武器は<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>時代にも通用するのか」「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>によって新たに
+作れる武器は何か」——この問いが、セッションの議論で繰り返し立ち返る場所になります。</p>
+<div class="admonition info">
+<p class="admonition-title">参考：<abbr title="Value・Rarity・Imitability・Organization の4観点で自社の経営資源を評価するフレームワーク。">VRIO分析</abbr></p>
+<p>戦略論の代表的なフレームワークに、自社の経営資源を4つの観点で評価する<abbr title="Value・Rarity・Imitability・Organization の4観点で自社の経営資源を評価するフレームワーク。">VRIO分析</abbr>が
+あります。Value（価値があるか）、Rarity（希少か）、Imitability（真似しにくいか）、
+Organization（活かせる組織か）。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>時代には、この4つのうち特にImitability
+（模倣困難性）の中身が大きく変動します。セッションの中で「自社のVRIOは<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>でどう
+変わるか」を考える場面が出てきます。</p>
+</div>
+<h3 id="5-5-5">5 × 5 × 5の枠組み<a class="headerlink" href="#5-5-5" title="Permanent link">&para;</a></h3>
+<p>本プロジェクトでは、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が事業に与えるインパクトを3つの層で捉えます。それぞれの層に
+5つの切り口を設け、合計15の領域を体系的に整理した「5 × 5 × 5の枠組み」を、各セッションの
+テーマ設定の指針にしています。</p>
+<table>
+<thead>
+<tr>
+<th>層</th>
+<th>5つの切り口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>第1層</strong><br>実装方法<br>（業務・施策）</td>
+<td><strong>[1A]</strong> 人間の認知容量の解除 ── <abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が全件を読み、見落としを消す<br><strong>[1B]</strong> 人間の時間制約の解除 ── 24時間の対話と即時のソフトウェア製作<br><strong>[1C]</strong> 人間の可能域の拡張 ── 個人の「できない」を破り、専門性を民主化<br><strong>[1D]</strong> 人間理解と接点の深化 ── 一律から一人ひとりへ、本音に届く接点<br><strong>[1E]</strong> 物理世界との接地と作用 ── センサーで見続け、判断を物理世界に返す</td>
+</tr>
+<tr>
+<td><strong>第2層</strong><br>組織変革<br>（事業組織）</td>
+<td><strong>[2A]</strong> 情報流通の血流化 ── 議事録・日報・稟議を<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が担い、組織の神経系を作り変える<br><strong>[2B]</strong> 創造的活動の加速器 ── 0→1の活動を併走化し、創造のスピードを常態化<br><strong>[2C]</strong> 組織学習と人材育成の統合 ── 個人成長と組織知が双方向に循環<br><strong>[2D]</strong> 経営の知的オペレーション機構化 ── 分析と意思決定を機構化<br><strong>[2E]</strong> 事業戦略と組織戦略の共転換 ── 事業構造と組織体制の適応を一体で組む</td>
+</tr>
+<tr>
+<td><strong>第3層</strong><br>戦略転換<br>（産業・事業）</td>
+<td><strong>[3A]</strong> 顧客価値のシフト ── 価値の定義そのものが書き換わる<br><strong>[3B]</strong> 顧客接点のシフト ── 顧客側<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>を前提に、見つけられ選ばれる構造へ<br><strong>[3C]</strong> 差別化資産のシフト ── アルゴリズムから独自データ・関係資産の<abbr title="競合が容易に追随できない防御壁となる競争優位の源泉（Moat／堀）。">モート</abbr>へ<br><strong>[3D]</strong> 時間軸戦略のシフト ── 高速化と蓄積を使い分け、先行実験を資産化<br><strong>[3E]</strong> 収益構造と戦場のシフト ── ビジネスモデルを根本再設計する</td>
+</tr>
+</tbody>
+</table>
+<p>セッションの冒頭で「今日は[1A]の領域を扱います」といった形で参照します。全体像を
+暗記する必要はなく、「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の戦略インパクトを整理するこういう地図があるんだな」という
+程度で大丈夫です。セッションを重ねるなかで、各領域の意味が実感として掴めてきます。</p>
+<hr />
+<h2 id="3">3. セッションで体験すること<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="ai3"><abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の「3つの使い方」を一気に駆け上がる<a class="headerlink" href="#ai3" title="Permanent link">&para;</a></h3>
+<p>セッションでは、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>の使い方を以下の3段階で体験します。1回のセッションの中でこの3段階を
+段階的に進め、「個人が<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>と対話する世界」から「<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>を事業の仕組みとして組み込む世界」への
+転換を体感します。</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Step 1：<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>と対話する</label><label for="__tabbed_1_2">Step 2：<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に作らせる（<abbr title="AIに自然言語で「こういうものを作って」と伝えてプログラムを書かせる開発スタイル。">Vibe Coding</abbr>）</label><label for="__tabbed_1_3">Step 3：システムから<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>を呼び出す（<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>）</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>ご自身の事業・業界の文脈で課題を言語化し、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に考えさせてみる。人間が書いたものと
+<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が出したものを比較して、補完関係を確かめる。</p>
+<blockquote>
+<p>「なんとなく相談」ではなく、背景と目的を言語化して<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に渡すことで返答の質が
+変わることを実感します。</p>
+</blockquote>
+</div>
+<div class="tabbed-block">
+<p><abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に「こういうプログラムを書いて」と自然言語で指示し、動くものを作る。例えば
+「世界のニュースを自動で集めてくるプログラム」を<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>との対話だけで作り上げる。</p>
+<blockquote>
+<p>プログラミング経験は不要です。用意された指示文を<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に渡し、返ってきたコードを
+<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>に貼って実行します（手順はセクション4で説明）。</p>
+</blockquote>
+</div>
+<div class="tabbed-block">
+<p>プログラムの中から<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>を呼び出して、大量のデータを自動処理する仕組みを作る。例えば
+「集めたニュース100件を、自社の各部署の視点で<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に重要度評価させる」処理が自動で回る。</p>
+<blockquote>
+<p>ここで「個人の便利使い」から「事業に組み込める仕組み」に転換します。<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>の仕組みは
+セクション4で説明します。</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p>どの段階でも最も重要なのはプログラミングの知識ではなく、<strong>「何のためにこれを作るのか」</strong>
+を判断する力です。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>にコードを書かせること自体は手段であり、そこに事業の文脈で意味の
+ある目的を設定し、出来上がったものの質を業界経験に基づいて判断してフィードバックする
+——これが参加者の役割です。</p>
+<h3 id="_3">セッション当日の進み方<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>各セッションは約2〜2.5時間＋交流タイムで、毎回独立したテーマを扱います。進め方は
+テーマに応じて柔軟に変わりますが、おおむね以下のような流れです。</p>
+<p>まず、その回のテーマが事業戦略としてなぜ重要かという<strong>問いと文脈</strong>が提示されます。
+参加者自身の業界・役割で課題を言語化し、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>にも同じ問いを考えさせるところから始まります。</p>
+<p>次に、用意された指示文やサンプルコードを使いながら、<strong>段階的に<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>で動くものを作って
+いきます</strong>。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>との対話で始まり、コードの生成、<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>を使ったシステム連携、さらに自動化や
+アプリ化へと発展させていきます。一つのテーマに対して複数の角度からアプローチし、実装の
+バリエーションを体験します。</p>
+<p>随所で、作ったものをもとに<strong>戦略的なインパクト</strong>を考えます。「これが自社にあったら何が
+変わるか」「他業界ではどう応用できるか」「産業構造の転換にどう位置づけられるか」。
+ツールの便利使いで終わらせず、戦略の文脈に接続することを重視します。</p>
+<p>終了後に共有される資料一式（映写資料、サンプルコード、<abbr title="AIに対する指示文・入力文のこと。「何をしてほしいか」をAIに伝える文章。">プロンプト</abbr>、発展版コード・アプリの
+デモ、自習ガイド、Zoom録画）で、当日に消化しきれなかった部分やご都合で参加できなかった
+場合の追体験もできます。</p>
+<hr />
+<h2 id="4">4. 当日スムーズに始めるための準備<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p>セッション中は指示に沿って進められますが、以下を事前に確認しておくと当日の立ち上がりが
+スムーズです。</p>
+<h3 id="ai">対話型<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>サービス<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h3>
+<p>ChatGPT、Gemini、Claude、Copilot、Grokなど、普段お使いのものをブラウザで開いた状態で
+臨んでください。どれを使っても構いませんし、複数を並べて同じ指示を渡し、結果を比較して
+みるのも面白いです。</p>
+<p>有料版・無料版どちらでも参加に支障はありません。無料版は利用上限があり、セッション中に
+上限に達する場合があります。その場合は別のサービスに切り替えれば続行できるので、
+2つ以上のサービスにログインしておくのをお勧めします。</p>
+<h3 id="_4">「指示文」の使い方<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>セッションでは、講師が作成した「指示文」（<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に渡すテキスト）が随時共有されます。
+参加者は、この指示文をコピーして手元の対話型<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>（ChatGPT等）に貼り付け、必要に応じて
+自分の業界や役職に書き換えて実行します。</p>
+<div class="admonition success">
+<p class="admonition-title">指示文を使う流れ</p>
+<ol>
+<li>共有された指示文テキストをコピーする</li>
+<li>手元の<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>（ChatGPT / Gemini / Claude等）のチャット欄に貼り付ける</li>
+<li>指示文の中の【事業・業界】【部門・役割】の部分を、ご自身の状況に書き換える</li>
+<li>送信して、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>からの返答を確認する</li>
+<li>返答に対して「もう少し具体的に」「〇〇の観点も入れて」など重ねて指示し、質を高める</li>
+</ol>
+<p>指示文ごとに新しいスレッド（会話）を始めるか、同じスレッドの続きに入力するかは、
+都度案内があります。</p>
+</div>
+<h3 id="google-colaboratorycolab"><abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動く。">Google Colaboratory</abbr>（<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>）でのコード実行<a class="headerlink" href="#google-colaboratorycolab" title="Permanent link">&para;</a></h3>
+<p>セッションのStep 2以降では、<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が書いた<abbr title="AI・データ分析で最も広く使われるプログラミング言語。読みやすい文法が特徴。">Python</abbr>コードを<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動く。">Google Colaboratory</abbr>（<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>）で
+実行します。<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>は、Googleが無料で提供する<abbr title="インターネット経由で利用できるコンピュータ資源（サーバー、ストレージなど）の総称。">クラウド</abbr>上の<abbr title="AI・データ分析で最も広く使われるプログラミング言語。読みやすい文法が特徴。">Python</abbr>実行環境で、ブラウザだけで
+動きます。</p>
+<div class="admonition success">
+<p class="admonition-title">コードを実行する流れ</p>
+<ol>
+<li><code>colab.research.google.com</code> にGoogleアカウントでアクセスし、「新しいノートブック」を作成</li>
+<li><abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が作成したコードをまるごとコピーする（ChatGPTやGeminiの「<abbr title="ChatGPTやGeminiで、コードや文書をチャットとは別の編集画面で作成・修正できる機能。">Canvas</abbr>」機能を使うとコードが見やすく表示されます）</li>
+<li><abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>の入力欄（「<abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>」と呼びます）にペーストする</li>
+<li><abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>の左にある再生ボタン（三角マーク）を押す</li>
+<li>実行結果が<abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>の下に表示される。出力ファイルは左端のフォルダアイコンから確認</li>
+</ol>
+<p><strong>エラーが出た場合</strong>：<abbr title="プログラム実行中に問題が発生した際に表示される情報。AIに貼り付けて修正を依頼する。">エラーメッセージ</abbr>（赤い文字）をコピーして、コードを書かせた<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>に
+貼り付け、「このエラーが出ました」と伝えてください。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>が修正版を返してくれます。</p>
+<p>コードの追加<abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>が必要な場合は、上部メニューの「＋コード」を押すと新しい<abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>が
+追加されます。</p>
+</div>
+<p><abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>の操作に事前に慣れておきたい方は、上記の手順でノートブックを開き、<abbr title="Colabでプログラムを書いて実行する単位。">セル</abbr>に
+<code>print("hello")</code> と入力して実行ボタンを押してみてください。helloと表示されれば、当日の
+操作と同じ流れが確認できます。</p>
+<h3 id="api"><abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>について<a class="headerlink" href="#api" title="Permanent link">&para;</a></h3>
+<p>セッションのStep 3では<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>をプログラムから呼び出す「<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>」を使います。<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>を使うには
+<abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>（利用者を識別する認証文字列）が必要ですが、<strong>セッション当日は講師が一時的な
+キーを提供します</strong>ので、事前に自分で取得していなくても参加できます。</p>
+<p>セッション終了後は、一時的なキーは無効化されます。その後もご自身で試したい場合は、
+Gemini <abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>を取得してください（Google <abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr> Studio: <code>aistudio.google.com</code> から、
+クレジットカード登録不要・無料枠で利用可能です。手順は付録に記載します）。</p>
+<div class="admonition warning">
+<p class="admonition-title">取り扱い注意</p>
+<p><abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>はパスワードと同じ扱いです。<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>への入力に含めたり、共有フォルダに置いたり
+すると、第三者に使われてしまう可能性があるため、管理にはご注意ください。</p>
+</div>
+<h3 id="googlepc">Googleアカウント・PC<a class="headerlink" href="#googlepc" title="Permanent link">&para;</a></h3>
+<p>個人のGoogleアカウント（〜@gmail.com）をご用意ください。<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>、資料共有（Googleドライブ）、
+Gemini <abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>の利用で使います。法人管理のPCをご利用の場合は、個人Googleアカウントにログイン
+できる環境かご確認ください。</p>
+<p>Zoom接続可能なPCをご用意ください。OS（Windows / Mac / Linux）は問いません。カメラは
+必須ではありませんが、講師にとって話しやすいためなるべくオンをお勧めします。</p>
+<hr />
+<h2 id="5">5. 付録：もう少し詳しく知りたい方へ<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<h3 id="gemini-api">Gemini <abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>の取得手順（任意）<a class="headerlink" href="#gemini-api" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">取得手順</p>
+<ol>
+<li><code>aistudio.google.com</code> にGoogleアカウントでアクセス</li>
+<li>最初に表示される規約に同意して「続行」</li>
+<li>画面左下の「Get <abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr> key」をクリック</li>
+<li>「<abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>を作成」をクリックし、プロジェクト名を入力して「キーを作成」</li>
+<li>表示された<abbr title="API利用者を識別するための秘密の文字列（パスワードのようなもの）。他人に見せてはいけない。">APIキー</abbr>をコピーして、安全な場所に保存</li>
+</ol>
+<p>クレジットカード登録は不要で、無料枠の範囲で利用できます。<abbr title="Googleが無料で提供するクラウド上のPython実行環境。ブラウザだけで動き、環境構築が不要。">Colab</abbr>での設定方法は、
+セッション資料のAppendixで詳しく案内しています。</p>
+</div>
+<h3 id="api_1"><abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>の仕組み<a class="headerlink" href="#api_1" title="Permanent link">&para;</a></h3>
+<p><abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>はApplication Programming Interfaceの略で、プログラムから<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>サービスを呼び出すための
+仕組みです。チャットでの利用が「自分でレストランに食べに行く」ことだとすると、<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>利用は
+「出前の注文をまとめて100件出す」ようなものです。人間が毎回画面を操作しなくても、
+プログラムが自動で問い合わせと結果の受け取りを繰り返してくれます。</p>
+<p>セッションで使うGemini <abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>は、無料枠として1分あたり10リクエスト（<abbr title="Requests Per Minute。1分あたりのリクエスト数。APIの利用上限を表す指標。">RPM</abbr> 10）などの制限が
+あります。プログラム内で間隔を空けながら呼び出す設計にすることで、無料枠の範囲内で十分に
+使えます。</p>
+<h3 id="ai_1">主要<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>サービス一覧<a class="headerlink" href="#ai_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>サービス</th>
+<th>URL</th>
+<th>メモ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ChatGPT (OpenAI)</td>
+<td><code>chatgpt.com</code></td>
+<td>最も利用者が多い。<abbr title="ChatGPTやGeminiで、コードや文書をチャットとは別の編集画面で作成・修正できる機能。">Canvas</abbr>機能でコード生成の精度向上。</td>
+</tr>
+<tr>
+<td>Gemini (Google)</td>
+<td><code>gemini.google.com</code></td>
+<td>Google連携が強み。<abbr title="Application Programming Interface。プログラムからAIサービスを呼び出すための窓口。">API</abbr>の無料枠が比較的寛大。</td>
+</tr>
+<tr>
+<td>Claude (Anthropic)</td>
+<td><code>claude.ai</code></td>
+<td>長文の読解に強み。200K<abbr title="AIがテキストを処理する際の最小単位。料金計算や処理量の単位として使われる。">トークン</abbr>の<abbr title="AIが一度に読める情報量の上限。「200Kトークン」などと表記され、大きいほど長い文書を扱える。">コンテキスト窓</abbr>。</td>
+</tr>
+<tr>
+<td>Copilot (Microsoft)</td>
+<td><code>copilot.microsoft.com</code></td>
+<td>Microsoft製品との連携。実質無制限の利用。</td>
+</tr>
+<tr>
+<td>Grok (xAI)</td>
+<td><code>grok.com</code></td>
+<td>Xアカウントと連携。最新情報の反映が速い。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">ボキャブラリーリスト</p>
+<p>セッションで登場する<abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>・技術・戦略関連の用語を平易にまとめた
+<a href="../glossary/">ボキャブラリーリスト</a>を別途用意しています。セッション中に知らない言葉が
+出てきた際にご参照ください。</p>
+</div>
+<hr />
+<p><em>本ガイドの内容は2026年6月時点の情報に基づいています。</em></p>
+<p><em>株式会社アンテカニス / <abbr title="コンピュータに人間のような知的な処理をさせる技術の総称。">AI</abbr>戦略実践プロジェクト　お問い合わせ: support@antecanis.com</em></p>
+<!--
+  用語集ツールチップ定義ファイル（auto_append）
+
+  ここに `*[用語]: 定義` 形式で記載した用語は、全ページの本文中で
+  該当語にマウスを重ねるとツールチップとして説明が表示されます。
+  （mkdocs.yml の pymdownx.snippets.auto_append で全ページへ自動付与）
+
+  日本語（CJK）対応は hooks/abbr_cjk.py が担っています。
+  用語を追加・変更したら、用語集ページ（glossary.md）の定義と一致させてください。
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; AI戦略実践プロジェクト
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mkuriyama/ai-strategy-docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tooltips", "content.code.copy", "navigation.instant", "navigation.tracking", "navigation.top", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
