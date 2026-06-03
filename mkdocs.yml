@@ -45,6 +45,10 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+# 日本語（CJK）対応の abbreviations ツールチップを有効化する hook
+hooks:
+  - hooks/abbr_cjk.py
+
 # 日本語検索対応（CJK 分割に対応）
 plugins:
   - search:
