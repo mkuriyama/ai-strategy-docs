@@ -1,0 +1,97 @@
+site_name: AI戦略実践プロジェクト ドキュメント
+site_description: AI戦略実践プロジェクトのボキャブラリーリストとスタートガイド
+site_author: AI戦略実践プロジェクト
+# 公開URL（GitHub Pages）。<user>/<repo> に合わせて自動調整されます。
+site_url: https://mkuriyama.github.io/ai-strategy-docs/
+
+# リポジトリ情報（右上の編集リンク等で利用）
+repo_name: mkuriyama/ai-strategy-docs
+repo_url: https://github.com/mkuriyama/ai-strategy-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ja
+  palette:
+    # ライトモード
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    # ダークモード
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+  features:
+    # 用語集ツールチップ（abbreviations）を有効化
+    - content.tooltips
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+# 日本語検索対応（CJK 分割に対応）
+plugins:
+  - search:
+      lang:
+        - ja
+        - en
+
+markdown_extensions:
+  # 用語集ツールチップ（*[TERM]: 定義 形式）
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # 全ページに用語集の定義を自動付与（ツールチップ用）
+  - pymdownx.snippets:
+      base_path:
+        - docs
+      check_paths: true
+      auto_append:
+        - includes/abbreviations.md
+
+# ツールチップ用のインクルードはページ化しない
+exclude_docs: |
+  includes/
+
+nav:
+  - ホーム: index.md
+  - スタートガイド: start-guide.md
+  - ボキャブラリーリスト（用語集）: glossary.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mkuriyama/ai-strategy-docs
+
+copyright: Copyright &copy; AI戦略実践プロジェクト
