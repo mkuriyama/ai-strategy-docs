@@ -28,7 +28,7 @@
 
 </div>
 
-[登録フォームへ進む](https://mailchi.mp/antecanis/aiteachdesign001-5649707){ .md-button .md-button--primary target=_blank }
+[登録フォームへ進む](https://mailchi.mp/antecanis/ai-strategy){ .md-button .md-button--primary target=_blank }
 
 ## 今後の月次予定（仮）
 

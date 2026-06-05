@@ -15,7 +15,7 @@
 
 詳細・今後の予定は **[開催予定・次回案内](sessions/schedule.md)** をご覧ください。
 
-[登録フォームへ進む](https://mailchi.mp/antecanis/aiteachdesign001-5649707){ .md-button .md-button--primary target=_blank }
+[登録フォームへ進む](https://mailchi.mp/antecanis/ai-strategy){ .md-button .md-button--primary target=_blank }
 
 ## 目的別の入口
 
