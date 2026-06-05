@@ -11,7 +11,7 @@
 - 第2回以降への参加を検討
 - 現時点では未定だが、本プロジェクトの継続的な案内を希望
 
-[登録フォームへ進む](https://mailchi.mp/antecanis/aiteachdesign001-5649707){ .md-button .md-button--primary target=_blank }
+[登録フォームへ進む](https://mailchi.mp/antecanis/ai-strategy){ .md-button .md-button--primary target=_blank }
 
 !!! info "メール配信について"
     ご案内配信メールは **support@antecanis.com** からお送りします。プロモーションメール等に
