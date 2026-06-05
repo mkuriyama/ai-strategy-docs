@@ -6,6 +6,8 @@ site_url: https://ai-strategy.antecanis.com/
 theme:
   name: material
   language: ja
+  logo: assets/logo-header.png
+  favicon: assets/favicon.png
   palette:
     # ライトモード
     - media: "(prefers-color-scheme: light)"
@@ -85,9 +87,15 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
 
-# ツールチップ用のインクルードはページ化しない
+# ツールチップ用のインクルードと、サイズの大きい元画像はページ化・配信しない
 exclude_docs: |
   includes/
+  assets/antecanis_favicon.png
+  assets/antecanis_logo_ss.png
+  assets/antecanis_logo_white.png
+  assets/profile_kuriyama_DSC2043.jpg
+  assets/profile_kuriyama_DSC2043_s.jpg
+  assets/profile_kuriyama_DSC2043_s2.jpg
 
 nav:
   - ホーム: index.md
