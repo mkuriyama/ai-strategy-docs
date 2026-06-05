@@ -87,3 +87,14 @@
   color: var(--md-default-fg-color--light); font-size: .85rem;
 }
 .dg-meta b { color: var(--md-primary-fg-color); font-weight: 700; }
+
+/* Header wordmark logo: a touch taller than the default icon for legibility */
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img { height: 1.5rem; width: auto; }
+
+/* Profile portrait */
+.md-typeset img.profile-photo {
+  border-radius: 10px;
+  margin: 0 0 1rem 1.4rem;
+  max-width: 220px;
+}
